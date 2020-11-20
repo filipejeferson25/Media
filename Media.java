@@ -15,7 +15,7 @@ public class Media {
 		
 		double notas[] = new double[qtdeNotas];
 		for(int i = 0; i < notas.length; i++) {
-			System.out.println("Informe a " + (n + 1) + "° nota: ");
+			System.out.println("Informe a " + (n + 1) + " nota: ");
 			notas[i] = input.nextDouble();
 			total+=notas[i];
 			n++;
@@ -29,7 +29,7 @@ public class Media {
 		
 		System.out.println("\n\n   -------------------------------------------");
 		double media = total/qtdeNotas;
-		System.out.printf("\nA média das notas é: %.2f", media);
+		System.out.printf("\nA mdia das notas : %.2f", media);
 		input.close();
 
 	}
